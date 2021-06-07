@@ -8,6 +8,11 @@
     <title>Laravel primi passi</title>
 </head>
 <body>
-    <h1>Laravel primi passi</h1>
+
+    <a href="{{ route('test') }}">Pagina test</a>
+
+    <h1>Ciao {{ $nome }}</h1>
+
+    <h2>Benvenuto su {{ $framework }}</h2>
 </body>
 </html>
